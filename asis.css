@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(188, 255, 189);
+}
+.contenedor {
+    display: flex;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    border-radius: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.titulo {
+    width: 100%;
+}
+h1 {
+    margin: 0px;
+    padding: 10px;
+}
+.espacio {
+    background-color: black;
+    width: 80%;
+    height: 10px;
+    margin: 20px;
+}
+.cantidad {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 40%;
+    height: 50px;
+    justify-content: space-evenly;
+}
+.cantidad p {
+    width: 20%;
+}
+.ingresar {
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    width: 80%;
+    height: 50px;
+    border-style: none;
+    border-radius: 5px;
+    }
+.enviar {
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(188, 255, 189);
+    border-style: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+.enviar:hover {
+    cursor: pointer;
+}
+.resultado-div {
+    visibility:hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 40%;
+    height: 70%;
+    background-color: rgb(188, 255, 189);
+    color: rgb(70, 70, 70);
+}
+.resultado-div p {
+    margin-top: 100px;
+}
+.resultado {
+    margin-bottom: 50px;
+    text-align: center;
+    border-style: none;
+    color: rgb(70, 70, 70);
+    background: none;
+    font-size: 200px;
+    width: 90%;
+}

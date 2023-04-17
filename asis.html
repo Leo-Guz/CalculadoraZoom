@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asis.css">
+    <script src="asis.js"></script>
+    <title>Asistencia</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo">
+            <h1>Asistencia Zoom</h1>
+            <span>Suma de asistencia a partir de una votacion</span>
+        </div>
+        <div class="espacio"></div>
+        <div class="cantidad">
+            <p>1.</p>
+            <input type="number" class="ingresar" value="0" id="uno">
+        </div>
+        <div class="cantidad">
+            <p>2.</p>
+            <input type="number" class="ingresar" value="0" id="dos">
+        </div>
+        <div class="cantidad">
+            <p>3.</p>
+            <input type="number" class="ingresar" value="0" id="tres">
+        </div>
+        <div class="cantidad">
+            <p>4.</p>
+            <input type="number" class="ingresar" value="0" id="cuatro">
+        </div>
+        <div class="cantidad">
+            <p>5.</p>
+            <input type="number" class="ingresar" value="0" id="cinco">
+        </div>
+        <div class="cantidad">
+            <p>6.</p>
+            <input type="number" class="ingresar" value="0" id="seis">
+        </div>
+        <div class="cantidad">
+            <p>7.</p>
+            <input type="number" class="ingresar" value="0" id="siete">
+        </div>
+        <div class="cantidad">
+            <p>8.</p>
+            <input type="number" class="ingresar" value="0" id="ocho">
+        </div>
+        <div class="cantidad">
+            <p>9.</p>
+            <input type="number" class="ingresar" value="0" id="nueve">
+        </div>
+        <div class="cantidad">
+            <p>+</p>
+            <input type="number" class="ingresar" value="0" id="extra">
+        </div>
+        <button class="enviar" onclick="suma()">Calcular</button>
+    </div>
+    <div class="resultado-div" id="resultadoDiv">
+        <p>El resultado es de:</p>
+        <input type="number" class="resultado" value="0" id="resultado" readonly>
+    </div>
+    
+</body>
+</html>
